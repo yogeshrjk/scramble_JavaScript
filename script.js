@@ -4,7 +4,7 @@ const btn = document.querySelector('.btn');
 let newWords = "";
 let randomWords = "";
 let play = false;
-let sWords = ['python', 'javascript', 'c++', 'php', 'java', 'c#', 'html', 'css', 'react', 'angular', 'swift', 'android', 'mysql', 'golang', 'node', 'flutter'];
+let sWords = ["soup", "fruit", "onion", "fish", "strawberry", "grape", "carrot", "apple", "cake", "steak", "salad", "chicken", "potato", "mango", "chips", "popcorn", "peanuts", "watermelon", "water", "cookie", "brownie", "bagel", "pizza", "salsa", "cheese", "eggs", "bacon", "candy", "olive", "cherry", "tomato", "bread", "orange", "lemon", "mustard", "coffee", "milk", "butter", "pepper", "pasta", "rice", "cereal", "salt", "honey", "garlic", "beans", "sugar", "lettuce", "ham", "pork", "crab", "shrimp", "turkey", "mushroom", "celery", "lime", "nuts", "pumpkin", "pecans", "lamb", "cream", "flour", "granola", "beef", "jerky", "seeds", "spices", "yogurt", "berries", "vegetable", "peas", "vinegar", "ginger", "chocolate", "pastry", "noodles", "yeast", "vanilla", "dough", "buttermilk", "batter", "caramel", "cornmeal", "crackers"];
 
 const createNewWords = () => {
 	let randomWord = Math.floor(Math.random() * sWords.length);
